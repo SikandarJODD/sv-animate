@@ -9,7 +9,7 @@
 	let navs = [
 		{ name: 'Home', url: '/' },
 		{ name: 'Svelte Magic UI', url: '/magic' },
-		{ name: 'Svelte Aceternity UI', url: '/a' },
+		{ name: 'Svelte Aceternity UI', url: '/a/animated-testimonials' },
 		{ name: 'Svelte Indie UI', url: '/in' },
 		{ name: 'Svelte Luxe UI', url: '/luxe' }
 	];
@@ -28,7 +28,7 @@
 		},
 		{
 			title: 'Svelte Aceternity UI',
-			href: '/a',
+			href: '/a/animated-testimonials',
 			description: 'Copy paste the most trending components and use them in your websites.'
 		},
 		{

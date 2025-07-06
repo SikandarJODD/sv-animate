@@ -2,10 +2,10 @@
 	import { Card, CardContent, CardDescription, CardTitle } from '$lib/components/ui/card';
 
 	import WarpBackground from '$lib/components/sv/magic/backgrounds/wrap-bg/warp-background.svelte';
+	import AnimatedTooltipExample from '../a/animated-tooltip/examples/animated-tooltip-example.svelte';
 </script>
 
 <div class="flex h-screen items-center justify-center">
-
 	<!-- <WarpBackground>
 		<Card class="w-80">
 			<CardContent class="flex flex-col gap-2 p-4">
@@ -17,4 +17,5 @@
 			</CardContent>
 		</Card>
 	</WarpBackground> -->
+	<AnimatedTooltipExample />
 </div>

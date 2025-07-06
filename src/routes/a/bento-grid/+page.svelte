@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>{magic.name} - Svelte Magic UI</title>
+	<title>{magic.name} - Svelte Aceternity UI</title>
 	<meta name="description" content={magic.desc} />
 	<meta property="og:title" content="{magic.name} - Svelte Magic UI" />
 	<meta property="og:description" content={magic.desc} />
