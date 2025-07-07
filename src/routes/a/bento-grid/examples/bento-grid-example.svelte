@@ -1,1 +1,0 @@
-<!-- Bento Grid examples -->
