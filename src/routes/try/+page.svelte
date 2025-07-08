@@ -3,6 +3,8 @@
 
 	import WarpBackground from '$lib/components/sv/magic/backgrounds/wrap-bg/warp-background.svelte';
 	import AnimatedTooltipExample from '../a/animated-tooltip/examples/animated-tooltip-example.svelte';
+	import CompareExample from '../a/compare/examples/compare-example.svelte';
+	import DirectionHoverExample from '../a/direction-hover/examples/direction-hover-example.svelte';
 </script>
 
 <div class="flex h-screen items-center justify-center">
@@ -17,5 +19,7 @@
 			</CardContent>
 		</Card>
 	</WarpBackground> -->
-	<AnimatedTooltipExample />
+	<!-- <AnimatedTooltipExample /> -->
+	<CompareExample />
+	<!-- <DirectionHoverExample /> -->
 </div>
