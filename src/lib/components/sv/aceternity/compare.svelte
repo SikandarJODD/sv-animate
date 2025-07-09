@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { Spring, Tween } from 'svelte/motion';
+	import { Spring } from 'svelte/motion';
 
 	interface Props {
 		firstImage?: string;

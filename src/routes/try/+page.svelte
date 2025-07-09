@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { Card, CardContent, CardDescription, CardTitle } from '$lib/components/ui/card';
-
-	import WarpBackground from '$lib/components/sv/magic/backgrounds/wrap-bg/warp-background.svelte';
-	import AnimatedTooltipExample from '../a/animated-tooltip/examples/animated-tooltip-example.svelte';
-	import CompareExample from '../a/compare/examples/compare-example.svelte';
-	import DirectionHoverExample from '../a/direction-hover/examples/direction-hover-example.svelte';
+	import CardHoverEffectExample from '../a/card-hover-effect/examples/card-hover-effect-example.svelte';
+	import FloatingDockExample from '../a/floating-dock/examples/floating-dock-example.svelte';
+	import PlaceholdersAndVanishInputExample from '../a/placeholders-and-vanish-input/examples/placeholders-and-vanish-input-example.svelte';
+	import WobbleCardExample from '../a/wobble-card/examples/wobble-card-example.svelte';
 </script>
 
 <div class="flex h-screen items-center justify-center">
@@ -20,6 +18,10 @@
 		</Card>
 	</WarpBackground> -->
 	<!-- <AnimatedTooltipExample /> -->
-	<CompareExample />
+	<!-- <CompareExample /> -->
+	<!-- <FloatingDockExample /> -->
+	<!-- <WobbleCardExample /> -->
+	<!-- <CardHoverEffectExample /> -->
+	<PlaceholdersAndVanishInputExample />
 	<!-- <DirectionHoverExample /> -->
 </div>
