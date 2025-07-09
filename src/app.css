@@ -157,6 +157,10 @@
 	--animate-line-shadow: line-shadow 15s linear infinite;
 	--animate-background-position-spin: background-position-spin 3000ms infinite alternate;
 
+	/* Aceternity UI */
+	--animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+	--animate-aurora-bg: aurora 60s linear infinite;
+
 	/* All Magic UI keyframes  */
 	@keyframes shimmer {
 		0% {
@@ -318,17 +322,31 @@
 			background-position: bottom center;
 		}
 	}
+
+	/* Aceternity UI Keyframes */
+	@keyframes aurora-bg {
+		from {
+			background-position:
+				50% 50%,
+				50% 50%;
+		}
+		to {
+			background-position:
+				350% 50%,
+				350% 50%;
+		}
+	}
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
 @layer base {
 	* {
@@ -336,5 +354,17 @@
 	}
 	body {
 		@apply bg-background text-foreground;
+	}
+}
+
+/* Aceternity UI Keyframes */
+@keyframes spotlight {
+	0% {
+		opacity: 0;
+		transform: translate(-72%, -62%) scale(0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-50%, -40%) scale(1);
 	}
 }
