@@ -1,28 +1,20 @@
 import type { AceternityComponent } from '$lib/components/setup/aceternity/types';
+import Compare from '$lib/components/sv/aceternity/compare.svelte';
+import CompareCode from '$lib/components/sv/aceternity/compare.svelte?raw';
+import CompareExample from './examples/compare-example.svelte';
+import CompareExampleCode from './examples/compare-example.svelte?raw';
 
 export let magic: AceternityComponent = {
-	name: '',
-	desc: '',
-	previewComp: '',
+	name: 'Compare',
+	desc: 'Compare is a component that can be used to compare two images. Svelte 5 Code is mentioned below in Source Code file.',
+	previewComp: CompareExample,
 	previewCode: {
-		filecode: '',
-		filename: ''
+		filecode: CompareExampleCode,
+		filename: 'compare-example.svelte'
 	},
 	code: {
-		filecode: '',
-		filename: '',
+		filecode: CompareCode,
+		filename: 'compare.svelte',
 		isExpand: true
-	},
-	tailwind: '',
-	examples: [
-		{
-			name: '',
-			component: '',
-			code: {
-				filecode: '',
-				filename: '',
-				isExpand: true
-			}
-		},
-	]
+	}
 };

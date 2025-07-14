@@ -42,7 +42,7 @@
 	let cycleCollisionDetected = $state(false);
 	let beamKey = $state(0);
 
-	const checkCollision = () => {
+	let checkCollision = () => {
 		if (beamRef && containerRef && parentRef && !cycleCollisionDetected) {
 			let beamRect = beamRef.getBoundingClientRect();
 			let containerRect = containerRef.getBoundingClientRect();
@@ -60,14 +60,17 @@
 			}
 		}
 	};
+	let isDetected = $derived(collision.detected);
+	let coordinates = $derived(collision.coordinates);
 
 	onMount(() => {
 		const interval = setInterval(checkCollision, 50);
 		return () => clearInterval(interval);
 	});
 
-	watch([() => collision.detected, () => collision.coordinates], () => {
-		if (collision.detected && collision.coordinates) {
+	watch([() => isDetected, () => coordinates], () => {
+		console.log(isDetected, coordinates);
+		if (isDetected && coordinates) {
 			setTimeout(() => {
 				collision = { detected: false, coordinates: null };
 				cycleCollisionDetected = false;

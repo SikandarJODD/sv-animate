@@ -14,24 +14,21 @@
 
 	let { class: _class = '', items = [] }: Props = $props();
 	let hoveredIndex: number | null = $state(null);
-	$inspect(hoveredIndex, 'Hover');
 </script>
 
 <div class={cn('grid grid-cols-1 py-10 md:grid-cols-2 lg:grid-cols-3', _class)}>
-	<AnimateSharedLayout type='switch'>
+	<AnimateSharedLayout {hoveredIndex}>
 		{#each items as item, idx}
 			<button
 				class="group relative block h-full w-full p-2"
-				onclick={() => {
+				onmouseenter={() => {
 					hoveredIndex = idx;
-					console.log('hoveredIndex', hoveredIndex);
 				}}
 			>
 				<!-- href={item.link} -->
 				{#if hoveredIndex === idx}
 					<Motion.span
-						layout
-						layoutId="hoverBackground"
+						{hoveredIndex}
 						initial={false}
 						animate={{
 							opacity: 1,
@@ -41,8 +38,12 @@
 							opacity: 0,
 							transition: { duration: 0.15, delay: 0.2 }
 						}}
-						class="absolute inset-0 block h-full w-full rounded-3xl bg-neutral-200 dark:bg-slate-800/[0.8]"
-					></Motion.span>
+					>
+						<span
+							class="absolute inset-0 block h-full w-full rounded-3xl bg-neutral-200 dark:bg-slate-800/[0.8]"
+						>
+						</span></Motion.span
+					>
 				{/if}
 				<!-- Card : Here content, card can be anything  -->
 				<div

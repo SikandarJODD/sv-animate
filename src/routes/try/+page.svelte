@@ -1,4 +1,6 @@
 <script lang="ts">
+	import BackgroundLines from '$lib/components/sv/aceternity/background-lines/background-lines.svelte';
+	import BackgroundLinesExample from '../a/background-lines/examples/background-lines-example.svelte';
 	import CardHoverEffectExample from '../a/card-hover-effect/examples/card-hover-effect-example.svelte';
 	import FloatingDockExample from '../a/floating-dock/examples/floating-dock-example.svelte';
 	import PlaceholdersAndVanishInputExample from '../a/placeholders-and-vanish-input/examples/placeholders-and-vanish-input-example.svelte';
@@ -21,7 +23,8 @@
 	<!-- <CompareExample /> -->
 	<!-- <FloatingDockExample /> -->
 	<!-- <WobbleCardExample /> -->
+	<BackgroundLinesExample />
 	<!-- <CardHoverEffectExample /> -->
-	<PlaceholdersAndVanishInputExample />
+	<!-- <PlaceholdersAndVanishInputExample /> -->
 	<!-- <DirectionHoverExample /> -->
 </div>

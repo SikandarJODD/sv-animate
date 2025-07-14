@@ -2,7 +2,7 @@ export type AceternityComponent = {
 	id?: string;
 	name: string;
 	desc: string;
-	code: Code | Code[]; // Code for the component
+	code?: Code | Code[]; // Code for the component
 	component?: any; // Main Component
 	link?: string;
 	class?: string;

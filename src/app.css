@@ -160,6 +160,7 @@
 	/* Aceternity UI */
 	--animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
 	--animate-aurora-bg: aurora 60s linear infinite;
+	--animate-move: move 5s linear infinite;
 
 	/* All Magic UI keyframes  */
 	@keyframes shimmer {
@@ -334,6 +335,14 @@
 			background-position:
 				350% 50%,
 				350% 50%;
+		}
+	}
+	@keyframes move {
+		0% {
+			transform: translateX(-200px);
+		}
+		100% {
+			transform: translateX(200px);
 		}
 	}
 }
