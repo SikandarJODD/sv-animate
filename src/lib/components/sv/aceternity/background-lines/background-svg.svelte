@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Motion, M } from 'motion-start';
 
-	// export let duration: number = 10;
 	let { duration = 10 } = $props();
 
 	const pathVariants = {

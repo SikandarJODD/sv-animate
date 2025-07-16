@@ -8,17 +8,17 @@
 
 	let { x, y, title = 'William Shakespeare' }: Props = $props();
 
-	const colors = [
-		'var(--sky-500)',
-		'var(--neutral-500)',
-		'var(--teal-500)',
-		'var(--green-500)',
-		'var(--blue-500)',
-		'var(--red-500)',
-		'var(--yellow-500)'
+	let colors = [
+		'oklch(0.68 0.15 237)', // hex : #0ea5e9
+		'oklch(0.56 0.00 0)',
+		'oklch(0.70 0.12 183)',
+		'oklch(0.72 0.19 150)',
+		'oklch(0.62 0.19 260)',
+		'oklch(0.64 0.21 25)',
+		'oklch(0.80 0.16 86)'
 	];
 
-	let randomColor = colors[Math.floor(Math.random() * colors.length)];
+	let randomColor = $derived(colors[Math.floor(Math.random() * colors.length)]);
 </script>
 
 <div

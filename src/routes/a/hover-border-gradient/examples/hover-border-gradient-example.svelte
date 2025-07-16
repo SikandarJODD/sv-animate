@@ -6,7 +6,7 @@
   <HoverBorderGradient
     containerClassName="rounded-full"
     as="button"
-    class="dark:bg-black bg-white text-black dark:text-white flex items-center px-6"
+    class="dark:bg-black bg-white !text-black dark:!text-white flex items-center px-6"
   >
     <span> Svelte Aceternity UI</span>
   </HoverBorderGradient>

@@ -65,10 +65,10 @@
 					name: 'Aurora Background',
 					link: '/a/aurora-background'
 				},
-				{
-					name: 'Glowing Effect',
-					link: '/a/glowing-effect'
-				},
+				// {
+				// 	name: 'Glowing Effect',
+				// 	link: '/a/glowing-effect'
+				// },
 				{
 					name: 'Colourful Text',
 					link: '/a/colourful-text'
@@ -87,7 +87,7 @@
 				},
 				{
 					name: 'Features Sections',
-					link: '/a/feature-sections'
+					link: '/a/features-sections'
 				},
 				{
 					name: 'Text Hover Effect',
@@ -101,10 +101,10 @@
 					name: 'Compare',
 					link: '/a/compare'
 				},
-				{
-					name: 'Direction Hover',
-					link: '/a/direction-hover'
-				},
+				// {
+				// 	name: 'Direction Hover',
+				// 	link: '/a/direction-hover'
+				// },
 				{
 					name: 'Hover Border Gradient',
 					link: '/a/hover-border-gradient'
@@ -113,15 +113,15 @@
 					name: 'Placeholders and vanish input',
 					link: '/a/placeholders-and-vanish-input'
 				},
-				{
-					name: 'Pointer Highlight',
-					link: '/a/pointer-highlight',
-					isNew: true
-				},
-				{
-					name: 'Sidebar',
-					link: '/a/sidebar'
-				},
+				// {
+				// 	name: 'Pointer Highlight',
+				// 	link: '/a/pointer-highlight',
+				// 	isNew: true
+				// },
+				// {
+				// 	name: 'Sidebar',
+				// 	link: '/a/sidebar'
+				// },
 				{
 					name: 'Floating Dock',
 					link: '/a/floating-dock'
@@ -130,38 +130,38 @@
 					name: 'Follow Pointer',
 					link: '/a/follow-pointer'
 				},
-				{
-					name: 'Cards',
-					link: '/a/cards'
-				},
-				{
-					name: 'Background Lines',
-					link: '/a/background-lines'
-				},
-				{
-					name: 'Layout Grid',
-					link: '/a/layout-grid'
-				},
-				{
-					name: 'Card Hover Effect',
-					link: '/a/card-hover-effect'
-				},
+				// {
+				// 	name: 'Cards',
+				// 	link: '/a/cards'
+				// },
+				// {
+				// 	name: 'Background Lines',
+				// 	link: '/a/background-lines'
+				// },
+				// {
+				// 	name: 'Layout Grid',
+				// 	link: '/a/layout-grid'
+				// },
+				// {
+				// 	name: 'Card Hover Effect',
+				// 	link: '/a/card-hover-effect'
+				// },
 				{
 					name: 'Background Beam Collision',
 					link: '/a/background-beam-collision'
 				},
-				{
-					name: 'Glare Card',
-					link: '/a/glare-card'
-				},
+				// {
+				// 	name: 'Glare Card',
+				// 	link: '/a/glare-card'
+				// },
 				{
 					name: 'Wobble Card',
 					link: '/a/wobble-card'
 				},
-				{
-					name: 'Timeline',
-					link: '/a/timeline'
-				}
+				// {
+				// 	name: 'Timeline',
+				// 	link: '/a/timeline'
+				// }
 			]
 		}
 	];

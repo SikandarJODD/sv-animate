@@ -34,7 +34,7 @@
 				}
 			}
 		}}
-		class="mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-gray-50 px-4 pb-3 md:flex dark:bg-neutral-900 {className}"
+		class="mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-gray-100 px-4 pb-3 md:flex dark:bg-neutral-900 {className}"
 	>
 		{#each items as item (item.title)}
 			<IconContainer {mouseX} {containerX} {...item} />
